@@ -1,0 +1,115 @@
+.offers__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 20rem;
+}
+
+.offers__left--item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.left--item__raiting img {
+  position: absolute;
+  top: -3rem;
+  left: 12rem;
+  width: 180px;
+  z-index: 5;
+}
+
+.left--item__raiting-background {
+  position: absolute;
+  top: -9rem;
+  left: 9rem;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #e1e1e1, #dbdbdb);
+  z-index: 4;
+}
+
+.left--item__happy-emoji {
+  position: absolute;
+  top: -3rem;
+  left: 50rem;
+  width: 150px;
+}
+
+.left--item__happy-emoji img {
+  width: 90px;
+}
+
+.left--item__happy-emoji p {
+  position: absolute;
+  left: 2rem;
+  font-weight: 700;
+}
+
+.left--item__customer img {
+  position: absolute;
+  left: 8rem;
+  width: 500px;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.left--item__customer-background {
+  position: absolute;
+  top: 18rem;
+  left: 12rem;
+  height: 250px;
+  width: 500px;
+  border-radius: 300px 300px 0 0;
+  transform: rotate(161deg);
+  background-color: #fac247;
+}
+
+.offers__right--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.offers__right--item > div {
+  padding: 2rem 4rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 1.5rem 1rem 0.5rem rgba(128, 128, 128, 0.097);
+  -webkit-box-shadow: 0 1.5rem 1rem 0.5rem rgba(128, 128, 128, 0.097);
+  transition: all 0.3s ease-in-out;
+}
+
+.offers__right--item > div:hover {
+  transform: translateX(-3rem);
+  cursor: pointer;
+}
+
+.offers__right--item h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+
+.offers__right--item p {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.right--item__cms {
+  border-left: 0.5rem solid #fb9d7f;
+}
+
+.right--item__payment {
+  border-left: 0.5rem solid #6d79e3;
+  margin: 2.5rem 0;
+}
+
+.right--item__submission {
+  border-left: 0.5rem solid #13af36;
+}

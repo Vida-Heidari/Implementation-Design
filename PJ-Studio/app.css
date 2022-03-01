@@ -1,0 +1,76 @@
+.mobile__wrapper {
+  background-color: #f4f4ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25rem 0;
+}
+
+.mobile__image img {
+  height: 600px;
+  transform: translateY(-10rem);
+  box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+}
+
+.mobile__features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10rem 2.5rem;
+  background-color: #fff;
+}
+
+.mobile__features p {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.mobile__features p:first-child {
+  transform: translateY(-5rem);
+  font-size: 2rem;
+}
+
+.mobile__features h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+
+.mobile__feature--items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
+
+.mobile__feature--items i {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: var(--light-color);
+}
+
+.mobile__feature--items h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.feature__ux-design {
+  padding-right: 2.5rem;
+}
+
+.feature__ios {
+  padding-left: 2.5rem;
+}
+
+i.box--design {
+  background-color: #13b237;
+}
+
+i.box--apple {
+  background-color: #44d4d7;
+}

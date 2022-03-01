@@ -1,0 +1,57 @@
+#hero {
+  height: 88vh;
+  margin-top: 6rem;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero__left--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.hero__left--item h1 {
+  font-family: inherit;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 8rem;
+}
+
+.left--item__arrow img {
+  width: 80px;
+}
+.left--item__arrow {
+  position: relative;
+  top: -15rem;
+  left: 28rem;
+}
+
+.hero__left--item p {
+  color: var(--secondary-color);
+  font-size: 2rem;
+}
+
+.left--item__demo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__btn {
+  padding: 1.5rem 2.5rem;
+  font-size: 1.8rem;
+  margin: 0 1rem;
+}
+
+.hero__right--item img {
+  width: 600px;
+  opacity: 0.9;
+}
