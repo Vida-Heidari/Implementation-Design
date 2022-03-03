@@ -24,7 +24,7 @@
 }
 
 .left--item__arrow img {
-  width: 80px;
+  width: 8rem;
 }
 .left--item__arrow {
   position: relative;
@@ -34,7 +34,7 @@
 
 .hero__left--item p {
   color: var(--secondary-color);
-  font-size: 2rem;
+  font-size: var(--font-size-md);
 }
 
 .left--item__demo {
@@ -52,6 +52,6 @@
 }
 
 .hero__right--item img {
-  width: 600px;
+  width: 60rem;
   opacity: 0.9;
 }
