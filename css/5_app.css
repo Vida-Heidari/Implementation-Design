@@ -59,12 +59,23 @@
   margin: 2rem 0;
 }
 
-.feature__ux-design {
+#mobile-app .feature__ux-design {
   padding-right: 2.5rem;
+  transition: all 0.3s ease;
 }
 
 .feature__ios {
   padding-left: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+#mobile-app .feature__ux-design:hover {
+  color: #13b237;
+  transform: translateY(-1rem);
+}
+.feature__ios:hover {
+  color: #44d4d7;
+  transform: translateY(-1rem);
 }
 
 i.box--design {

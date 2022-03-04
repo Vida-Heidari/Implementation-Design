@@ -55,10 +55,21 @@
 
 .feature__ux-design {
   padding-right: 2.5rem;
+  transition: all 0.3s ease;
 }
 
 .feature__react {
   padding-left: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.feature__ux-design:hover {
+  color: #414fce;
+  transform: translateY(-1rem);
+}
+.feature__react:hover {
+  color: #ff7235;
+  transform: translateY(-1rem);
 }
 
 i.box--ux-design {
