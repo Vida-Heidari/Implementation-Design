@@ -36,7 +36,7 @@
   }
 
   .left--item__arrow img {
-    width: 7rem;
+    width: 6rem;
   }
 
   .left--item__arrow {
@@ -53,10 +53,13 @@
   }
 
   .hero__right--item img {
-    width: 50rem;
+    height: 40rem;
   }
 
   /*-------------- Our Procces ------------------*/
+  .process__wrapper {
+    margin-top: 10rem;
+  }
   .process__item h2 {
     font-size: var(--font-size-lg);
   }
@@ -182,8 +185,8 @@
   }
 
   .web__image img {
-    width: 50rem;
-    transform: translateX(-5rem);
+    height: 30rem;
+    transform: translateX(-3rem);
   }
 
   .web__features p {
@@ -207,12 +210,15 @@
   }
 
   .web__image--circle {
-    right: 8.5rem;
+    right: 4.5rem;
     height: 20rem;
     width: 20rem;
   }
 
   /*-------------- Sign Up ------------------*/
+  .sign-up__wrapper {
+    max-width: 90rem;
+  }
   .sign-up__content h2 {
     font-size: var(--font-size-lg);
   }
@@ -222,7 +228,7 @@
   }
 
   .sign-up__image img {
-    width: 50rem;
+    height: 46rem;
   }
 
   .sign-up__btn {

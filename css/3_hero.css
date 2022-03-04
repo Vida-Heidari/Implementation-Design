@@ -24,7 +24,7 @@
 }
 
 .left--item__arrow img {
-  width: 8rem;
+  height: 7rem;
 }
 .left--item__arrow {
   position: relative;
@@ -52,6 +52,6 @@
 }
 
 .hero__right--item img {
-  width: 60rem;
+  height: 50rem;
   opacity: 0.9;
 }
