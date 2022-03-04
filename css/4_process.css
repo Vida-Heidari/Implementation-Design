@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-top: 20rem;
 }
 
 .process__item h2 {
