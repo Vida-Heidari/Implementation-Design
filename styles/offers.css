@@ -59,7 +59,7 @@
 .left--item__customer img {
   position: absolute;
   left: 8rem;
-  width: 50rem;
+  height: 43.4rem;
   border-radius: 50%;
   z-index: 5;
 }
