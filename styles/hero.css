@@ -6,7 +6,7 @@
 .hero__wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+  margin-right: 2rem;
 }
 .hero__left--item h1 {
   font-family: inherit;
@@ -49,6 +50,10 @@
   padding: 1.5rem 2.5rem;
   font-size: 1.8rem;
   margin: 0 1rem;
+}
+
+.hero__right--item {
+  margin-left: 2rem;
 }
 
 .hero__right--item img {

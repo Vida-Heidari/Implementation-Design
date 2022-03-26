@@ -45,7 +45,7 @@ footer {
   padding: 1.2rem;
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .footer__about--social-media i:hover {
