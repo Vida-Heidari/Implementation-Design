@@ -1,6 +1,7 @@
 #hero {
   height: 88vh;
-  margin-top: 6rem;
+  margin-top: 10rem;
+  border: 2px solid blue;
 }
 
 .hero__wrapper {
@@ -8,6 +9,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 0 10rem;
+  border: 2px solid red;
 }
 
 .hero__left--item {
@@ -15,13 +18,16 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  margin-right: 2rem;
+  margin-right: 5rem;
 }
 .hero__left--item h1 {
   font-family: inherit;
-  font-size: 7rem;
-  font-weight: 700;
+  /* font-size: 7rem; */
   line-height: 8rem;
+}
+
+.hero__left--item h1 {
+  font-size: clamp(1.5rem, 10vmin, 7rem);
 }
 
 .left--item__arrow img {
@@ -35,7 +41,8 @@
 
 .hero__left--item p {
   color: var(--secondary-color);
-  font-size: var(--font-size-md);
+  /* font-size: var(--font-size-md); */
+  font-size: clamp(2rem, 5vmin, 1rem);
 }
 
 .left--item__demo {
@@ -47,16 +54,46 @@
 }
 
 .hero__btn {
-  padding: 1.5rem 2.5rem;
+  /* padding: 1.5rem 2.5rem; */
+  padding: clamp(0.5rem, 3vmin, 1.5rem);
   font-size: 1.8rem;
   margin: 0 1rem;
 }
 
 .hero__right--item {
-  margin-left: 2rem;
+  display: none;
 }
 
-.hero__right--item img {
-  height: 50rem;
+/* .hero__right--item img {
+  height: 50rem; 
   opacity: 0.9;
+} */
+
+/*----------------------------------- responsive-------------------------------*/
+@media only screen and (min-width: 992px) {
+  .hero__right--item {
+    margin-left: 2rem;
+    display: block;
+  }
+
+  .hero__right--item img {
+    width: clamp(50rem, 5vmin, 100rem);
+    opacity: 0.9;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .hero__wrapper {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .hero__left--item {
+    order: 2;
+    margin: 2rem 0;
+  }
+
+  .hero__right--item {
+    order: 1;
+  }
 }

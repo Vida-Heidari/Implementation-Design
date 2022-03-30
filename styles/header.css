@@ -10,9 +10,18 @@
 }
 
 .navbar__logo img {
-  height: 7rem;
+  height: clamp(4rem, 10vmin, 7rem);
   margin-top: 1rem;
   cursor: pointer;
+}
+
+.header__btn {
+  font-size: clamp(2rem, 5vmin, 2rem);
+  background-color: transparent;
+}
+
+.navbar__nav {
+  display: none;
 }
 
 .nav__lists {
@@ -33,4 +42,22 @@
 .nav__link:hover {
   color: var(--primary-color);
   transition: all 0.3s ease-in-out;
+}
+
+.navbar__demo {
+  display: none;
+}
+
+@media only screen and (min-width: 1300px) {
+  .header__btn {
+    display: none;
+  }
+
+  .navbar__nav {
+    display: block;
+  }
+
+  .navbar__demo {
+    display: block;
+  }
 }
