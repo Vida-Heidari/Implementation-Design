@@ -70,15 +70,9 @@
 } */
 
 /*----------------------------------- responsive-------------------------------*/
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 767px) {
   .hero__right--item {
-    margin-left: 2rem;
-    display: block;
-  }
-
-  .hero__right--item img {
-    width: clamp(50rem, 5vmin, 100rem);
-    opacity: 0.9;
+    display: none;
   }
 }
 
@@ -95,5 +89,11 @@
 
   .hero__right--item {
     order: 1;
+    display: block;
+  }
+
+  .hero__right--item img {
+    width: clamp(50rem, 5vmin, 100rem);
+    opacity: 0.9;
   }
 }
