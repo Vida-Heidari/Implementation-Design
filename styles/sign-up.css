@@ -8,6 +8,7 @@
   align-items: center;
 
   max-width: 150rem;
+  width: clamp(85%, 25vw, 150rem);
   border-radius: var(--border-radius-md);
   margin: 0 auto;
   background: linear-gradient(to top right, #fdfdfd 30%, #fff);
@@ -27,10 +28,43 @@
 }
 
 .sign-up__image img {
-  height: 56rem;
+  /* height: 56rem; */
+  width: max(60rem, 20px);
   padding: 3rem;
 }
 
 .sign-up__btn {
   padding: 1.5rem 3rem;
+}
+
+/* ---------------- MEDIA QUERIES ----------------- */
+@media only screen and (max-width: 767px) {
+  .sign-up__image img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .sign-up__wrapper {
+    flex-direction: column;
+  }
+
+  .sign-up__content {
+    order: 2;
+    margin: 5rem 0;
+  }
+  .sign-up__image img {
+    width: 80%;
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sign-up__content {
+    width: 80%;
+    padding: 0 5rem;
+  }
+  .sign-up__image img {
+    width: 80%;
+    transform: translateX(10rem);
+  }
 }
