@@ -69,7 +69,17 @@
   opacity: 0.9;
 } */
 
-/*----------------------------------- responsive-------------------------------*/
+/*----------------------------------- Media Queries-------------------------------*/
+@media only screen and (max-width: 680px) {
+  .hero__wrapper {
+    font-size: clamp(0.5rem, 2vw, 1rem);
+  }
+  .hero__btn {
+    padding: 0.5rem 1rem;
+    font-size: var(--font-size-xs);
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .hero__right--item {
     display: none;

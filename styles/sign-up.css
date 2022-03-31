@@ -15,7 +15,6 @@
   box-shadow: 3rem 2.5rem 5rem 4rem rgb(230, 229, 227);
   -webkit-box-shadow: 3rem 2.5rem 5rem 4rem rgb(230, 229, 227);
 }
-
 .sign-up__content h2 {
   font-size: var(--font-size-xl);
   font-weight: 700;
