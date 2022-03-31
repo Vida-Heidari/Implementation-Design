@@ -87,7 +87,7 @@ i.box--react {
 .web__image img {
   position: relative;
   display: block;
-  height: 40rem;
+  width: max(60rem, 300px);
   transform: translateX(-3rem);
   z-index: 10;
 }
@@ -101,4 +101,25 @@ i.box--react {
   background-color: #94bf9e;
   border-radius: 50%;
   display: inline-block;
+}
+
+/* ---------------- MEDIA QUERIES ----------------- */
+@media only screen and (max-width: 767px) {
+  .web__image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .web__wrapper {
+    flex-direction: column;
+  }
+
+  .web__features {
+    order: 2;
+  }
+
+  .web__image {
+    order: 1;
+    margin-bottom: 5rem;
+  }
 }

@@ -115,17 +115,58 @@
 }
 
 /* ---------------- MEDIA QUERIES ----------------- */
-/* @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .offers__left--item {
     display: none;
   }
 }
 
 @media only screen and (max-width: 1200px) {
+  /* .offers__wrapper {
+    margin: 12rem 3rem;
+  }
+  .offers__left--item {
+    margin-top: 5rem;
+  }
+
+  .left--item__happy-emoji {
+    left: 31rem;
+    width: 13rem;
+  }
+
+  .left--item__happy-emoji img {
+    width: 7rem;
+  }
+
+  .left--item__happy-emoji p {
+    font-size: var(--font-size-xs);
+  }
+
+  .left--item__customer img {
+    position: absolute;
+    left: 8rem;
+    height: 26rem;
+    border-radius: 50%;
+    z-index: 5;
+  }
+
+  .left--item__customer-background {
+    top: 10.6rem;
+    left: 11rem;
+    height: 15rem;
+    width: 30rem;
+    transform: rotate(159deg);
+  }
+
+  .left--item__small-circle {
+    top: 26rem;
+    height: 1.3rem;
+    width: 1.3rem;
+  } */
 }
 
 @media only screen and (min-width: 1200px) {
   .offers__wrapper {
     margin: 12rem 0;
   }
-} */
+}
