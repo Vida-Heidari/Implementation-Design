@@ -42,7 +42,8 @@
 .left--item__customer img {
   position: absolute;
   left: 8rem;
-  height: 43.4rem;
+  /* height: 43.4rem; */
+  width: max(49.5rem, 100px);
   border-radius: 50%;
   z-index: 5;
 }
