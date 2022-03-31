@@ -9,7 +9,8 @@
 
 .mobile__image img {
   height: 60rem;
-  transform: translateY(-10rem);
+  transform: translateY(-10rem) rotate(10deg);
+  margin: 0 5rem;
   box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
 }
 
@@ -84,4 +85,16 @@ i.box--design {
 
 i.box--apple {
   background-color: #44d4d7;
+}
+
+/* ---------------- MEDIA QUERIES ----------------- */
+@media only screen and (max-width: 767px) {
+  .mobile__image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .mobile__wrapper {
+    flex-direction: column;
+  }
 }
