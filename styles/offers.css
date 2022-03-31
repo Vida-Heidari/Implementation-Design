@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 20rem;
+  flex-wrap: wrap;
 }
 
 #customize-offers h2 {
@@ -12,6 +13,7 @@
   color: var(--dark-color);
 }
 
+/* ---------------- Left Item --------------- */
 .offers__left--item {
   position: relative;
   display: flex;
@@ -65,7 +67,7 @@
   border-radius: 50%;
   background-color: #fac247;
 }
-
+/* ---------------- Right Item --------------- */
 .offers__right--item {
   display: flex;
   flex-direction: column;
@@ -111,3 +113,19 @@
 .right--item__submission {
   border-left: 0.5rem solid #13af36;
 }
+
+/* ---------------- MEDIA QUERIES ----------------- */
+/* @media only screen and (max-width: 767px) {
+  .offers__left--item {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .offers__wrapper {
+    margin: 12rem 0;
+  }
+} */
