@@ -26,6 +26,7 @@
   text-align: center;
   font-size: var(--font-size-xl);
   color: var(--dark-color);
+  margin-bottom: 10rem;
 }
 
 /* ---------------- Left Item --------------- */
