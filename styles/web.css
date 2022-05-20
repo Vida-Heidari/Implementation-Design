@@ -104,11 +104,13 @@ i.box--react {
 }
 
 /* ---------------- MEDIA QUERIES ----------------- */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1400px) {
   .web__image {
-    display: none;
+    margin-bottom: 5rem;
+    margin: 0 3rem;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .web__wrapper {
     flex-direction: column;
@@ -128,11 +130,8 @@ i.box--react {
   }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 768px) {
   .web__image {
-    margin-bottom: 5rem;
-    /* width: 30rem; */
-    /* transform: translateX(-2rem); */
-    margin: 0 3rem;
+    display: none;
   }
 }

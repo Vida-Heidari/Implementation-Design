@@ -1,10 +1,14 @@
+#mobile-app {
+  margin-top: 20rem;
+}
+
 .mobile__wrapper {
   background-color: #f4f4ff;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 25rem 0;
+  margin: 10rem 0;
 }
 
 .mobile__image img {
@@ -88,13 +92,30 @@ i.box--apple {
 }
 
 /* ---------------- MEDIA QUERIES ----------------- */
-@media only screen and (max-width: 767px) {
-  .mobile__image {
-    display: none;
-  }
-}
 @media only screen and (max-width: 992px) {
   .mobile__wrapper {
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mobile-app {
+    margin-top: 10rem;
+  }
+
+  .mobile__image {
+    display: none;
+  }
+
+  .mobile__features {
+    padding: 8rem 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #mobile-app .container {
+    width: 100%;
+    margin: auto;
   }
 }

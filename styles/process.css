@@ -74,13 +74,14 @@ i.box--testing {
 }
 
 /* ---------------- MEDIA QUERIES ----------------- */
-@media only screen and (max-width: 767px) {
-  .process__wrapper {
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 1200px) and (min-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .process__wrapper {
     margin-top: 20rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .process__wrapper {
+    flex-direction: column;
   }
 }

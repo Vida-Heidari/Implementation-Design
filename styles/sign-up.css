@@ -37,11 +37,17 @@
 }
 
 /* ---------------- MEDIA QUERIES ----------------- */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
+  .sign-up__content {
+    width: 80%;
+    padding: 0 5rem;
+  }
   .sign-up__image img {
-    display: none;
+    width: 80%;
+    transform: translateX(10rem);
   }
 }
+
 @media only screen and (max-width: 992px) {
   .sign-up__wrapper {
     flex-direction: column;
@@ -57,13 +63,8 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .sign-up__content {
-    width: 80%;
-    padding: 0 5rem;
-  }
+@media only screen and (max-width: 768px) {
   .sign-up__image img {
-    width: 80%;
-    transform: translateX(10rem);
+    display: none;
   }
 }
