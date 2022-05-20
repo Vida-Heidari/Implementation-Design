@@ -152,11 +152,35 @@
     grid-template-areas: "offers__right--item";
   }
 
+  #customize-offers h2 {
+    margin-bottom: 5rem;
+  }
+
   .offers__left--item {
     display: none;
   }
 
   .offers__left--item {
     padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .offers__right--item {
+    margin-right: 0;
+  }
+
+  .offers__right--item > div {
+    padding: 2rem;
+  }
+
+  #customize-offers .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .offers__right--item > div:hover {
+    transform: translateX(0);
+    cursor: pointer;
   }
 }
