@@ -55,12 +55,12 @@
 
 .feature__ux-design {
   padding-right: 2.5rem;
-  transition: all 0.3s ease;
+  transition: 400ms ease-in-out;
 }
 
 .feature__react {
   padding-left: 2.5rem;
-  transition: all 0.3s ease;
+  transition: 400ms ease-in-out;
 }
 
 .feature__ux-design:hover {
@@ -114,6 +114,7 @@ i.box--react {
 @media only screen and (max-width: 992px) {
   .web__wrapper {
     flex-direction: column;
+    padding: 0;
   }
 
   .web__features {
@@ -128,10 +129,23 @@ i.box--react {
     align-self: center;
     transform: translateX(-7rem);
   }
+
+  .web__image--circle {
+    position: absolute;
+    right: -16rem;
+    bottom: -1rem;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+  #web-development .container {
+    width: 100%;
+  }
   .web__image {
     display: none;
+  }
+
+  .web__features {
+    padding: 5rem 4rem;
   }
 }
