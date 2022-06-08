@@ -66,6 +66,21 @@
 }
 
 /*----------------------------------- Media Queries-------------------------------*/
+@media only screen and (max-width: 540px) {
+  .left--item__arrow img {
+    top: -15rem;
+    left: 20rem;
+    height: 5rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .left--item__arrow img {
+    top: -12rem;
+    left: 16rem;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .hero__wrapper {
     grid-template-columns: repeat(2, minmax(0, 1fr));
