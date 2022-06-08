@@ -1,5 +1,6 @@
 #mobile-app {
-  margin-top: 20rem;
+  margin-top: 7rem;
+  overflow-x: hidden;
 }
 
 .mobile__wrapper {
@@ -8,7 +9,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 10rem 0;
+  margin: 3rem 0;
 }
 
 .mobile__image img {
@@ -66,12 +67,12 @@
 
 #mobile-app .feature__ux-design {
   padding-right: 2.5rem;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease-in-out;
 }
 
 .feature__ios {
   padding-left: 2.5rem;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease-in-out;
 }
 
 #mobile-app .feature__ux-design:hover {
@@ -85,12 +86,25 @@
 
 i.box--design {
   background-color: #13b237;
+  transition: all 0.4s ease-in-out;
 }
 
 i.box--apple {
   background-color: #44d4d7;
+  transition: all 0.4s ease-in-out;
 }
 
+#mobile-app .feature__ux-design:hover i.box--design {
+  background: transparent;
+  color: #13b237;
+  box-shadow: 0.1rem 0.1rem 1rem 0 #13b237;
+}
+
+#mobile-app .feature__ios:hover i.box--apple {
+  background: transparent;
+  color: #44d4d7;
+  box-shadow: 0.1rem 0.1rem 1rem 0 #44d4d7;
+}
 /* ---------------- MEDIA QUERIES ----------------- */
 @media only screen and (max-width: 992px) {
   .mobile__wrapper {
@@ -103,8 +117,9 @@ i.box--apple {
     margin-top: 10rem;
   }
 
-  .mobile__image {
-    display: none;
+  .mobile__image img {
+    /* display: none; */
+    height: 40rem;
   }
 
   .mobile__features {
@@ -117,5 +132,25 @@ i.box--apple {
   #mobile-app .container {
     width: 100%;
     margin: auto;
+  }
+}
+
+/* ------------- animated-circle ------------- */
+#mobile-app .animated-circle {
+  width: 8rem;
+  height: 16rem;
+  border-radius: 8rem 0 0 8rem;
+  background: #fac247;
+  margin-left: auto;
+  animation: rotaition 5000ms infinite linear;
+  transform-origin: 8rem 8rem;
+}
+
+@keyframes rotaition {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
