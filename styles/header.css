@@ -15,7 +15,7 @@
   cursor: pointer;
 }
 
-.header__btn {
+.navbar__open-btn {
   font-size: clamp(2rem, 5vmin, 2rem);
   background-color: transparent;
 }
