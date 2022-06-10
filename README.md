@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="./images/Pj-demo.png" alt="Logo" width="180">
+    <img src="./images/Pj-demo.png" alt="Logo" width="700">
 
   <h3 align="center">.: PJ Online Studio :.</h3>
 
@@ -23,8 +23,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![PJ Studio][product-screenshot]](https://example.com)
 
 PJ Studio is an online studio that hepls you organize your income and expenses efficiently.
 
