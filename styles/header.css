@@ -20,8 +20,16 @@
   background-color: transparent;
 }
 
-.navbar__nav {
+.header__btn {
   display: none;
+}
+
+.navbar__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .nav__lists {
